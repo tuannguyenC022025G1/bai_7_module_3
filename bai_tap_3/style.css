@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 16px;
+}
+
+.nav a.active,
+.nav a:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+/* Sidebar left */
+.sidebar-left {
+    width: 15%;
+    padding: 10px;
+    background-color: #eee;
+}
+
+.sidebar-left a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.content h1 {
+    margin-bottom: 15px;
+}
+
+.content hr {
+    margin: 20px 0;
+}
+
+/* Sidebar right */
+.sidebar-right {
+    width: 15%;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.ads-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+/* Footer */
+.footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
